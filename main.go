@@ -58,6 +58,8 @@ func main(){
 	if !success {
 		fmt.Println("Sorry, you didn't guess my number. It was:" ,target)
 	}
+}
 
-
+func Export(){
+	main()
 }

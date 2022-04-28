@@ -11,7 +11,7 @@ import (
 	"time"
 )
 
-func main(){
+func test(){
 	seconds := time.Now().Unix()
 
 	rand.Seed(seconds)
@@ -61,5 +61,5 @@ func main(){
 }
 
 func Export(){
-	main()
+	test()
 }
